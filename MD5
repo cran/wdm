@@ -1,13 +1,13 @@
-02b33f55e384c2082fe7287e274ee9df *DESCRIPTION
+8381a82b308cdbf674d2e438a7adc064 *DESCRIPTION
 1c5338f0d87a7f340c899fbb67970ec7 *LICENSE
 0b7b9bff279241af5f734367b3636b14 *NAMESPACE
-424ef99dcd817760d7ebc72794445364 *NEWS.md
+ead33f13bae374eaf4ec519133fbc288 *NEWS.md
 c3e45b71829077ce01e1e205c54dbfd4 *R/RcppExports.R
 13b594303e83f854a4df3dd4599837e1 *R/indep_test.R
 25963ee6fcb535fe5e151273caea24a6 *R/wdm-package.R
 e010a4cd9602ec38b92f210edad83245 *R/wdm.R
 8d3bc6682283f597fdd272c9e02761ac *README.md
-bbaa2e1ed606211ce1979ad0d1495263 *build/partial.rdb
+3e00a0cf72c046826c550b659d6827e3 *build/partial.rdb
 24d70330a76a4b5d26cb83bda243ce90 *inst/CMakeLists.txt
 f392556e0bf9fa04c12a62b1f4dd3826 *inst/LICENSE
 635ac6188c957b93bf44e00e761c0262 *inst/cmake/DownloadProject.cmake
@@ -31,7 +31,7 @@ efc48b48c928f48e6977311260b2fafc *inst/include/wdm/nan_handling.hpp
 f63dc49e20de20c903f552f64f03e17f *inst/include/wdm/prho.hpp
 0f2808eca65d3da7eb78547ca6ff2a82 *inst/include/wdm/ranks.hpp
 e434951d2a1390baea55be83b6a3bcb9 *inst/include/wdm/srho.hpp
-bf9f85baccc4ab238f038c73c40eb5b4 *inst/include/wdm/utils.hpp
+d4281e7cd917a69b8420935f368bf8d3 *inst/include/wdm/utils.hpp
 7f823dd706e84b1761d7bd7227d5eb5b *inst/test/CMakeLists.txt
 7f610443c7fa2f14038522ae4afcba20 *inst/test/test_all.cpp
 6f302bd1bf915cc7448459497e8fc354 *man/indep_test.Rd
