@@ -15,7 +15,7 @@ length.}
 
 \item{weights}{an optional vector of weights for the observations.}
 
-\item{remove_missing}{if \code{TRUE}, all (pairwise) incomplete observations are
+\item{remove_missing}{if \code{TRUE}, all (pairswise) incomplete observations are
 removed; if \code{FALSE}, the function throws an error if there are incomplete
 observations.}
 

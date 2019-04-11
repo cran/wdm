@@ -10,7 +10,7 @@
 #'   efficient).
 #' @param method the dependence measure; see *Details* for possible values.
 #' @param weights an optional vector of weights for the observations.
-#' @param remove_missing if `TRUE`, all (pairwise) incomplete observations are
+#' @param remove_missing if `TRUE`, all (pairswise) incomplete observations are
 #'   removed; if `FALSE`, the function throws an error if there are incomplete
 #'   observations.
 #'
