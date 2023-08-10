@@ -1,4 +1,8 @@
-# wdm 0.2.3
+# wdm 0.2.4
+
+* add function `rank_wtd()` for computing weighted ranks.
+ 
+ # wdm 0.2.3
 
 * avoid bitwise operations on Boolean variables. 
  
