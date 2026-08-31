@@ -1,24 +1,27 @@
 Package: wdm
 Title: Weighted Dependence Measures
-Version: 0.2.6
+Version: 0.3.0
 Authors@R: person("Thomas", "Nagler", email = "mail@tnagler.com", role = c("aut", "cre"))
 Description: Provides efficient implementations of weighted dependence measures
   and related asymptotic tests for independence. Implemented measures are
-  the Pearson correlation, Spearman's rho, Kendall's tau, Blomqvist's beta, and
-  Hoeffding's D; see, e.g., Nelsen (2006) <doi:10.1007/0-387-28678-0> and
-  Hollander et al. (2015, ISBN:9780470387375).
+  the Pearson correlation, Spearman's rho, Kendall's tau, Blomqvist's beta,
+  Hoeffding's D, and Chatterjee's xi; see, e.g., Nelsen (2006)
+  <doi:10.1007/0-387-28678-0>, Hollander et al. (2015,
+  ISBN:9780470387375), and Chatterjee (2021)
+  <doi:10.1080/01621459.2020.1758115>.
 Depends: R (>= 3.2.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LinkingTo: Rcpp
 Imports: Rcpp
-RoxygenNote: 7.3.2
-URL: https://github.com/tnagler/wdm-r
+URL: https://tnagler.github.io/wdm-r/, https://github.com/tnagler/wdm-r
 BugReports: https://github.com/tnagler/wdm-r/issues
-Suggests: testthat, Hmisc, copula, covr
+Suggests: testthat (>= 3.0.0), Hmisc, copula, covr
+Config/roxygen2/version: 8.0.0
+Config/testthat/edition: 3
 NeedsCompilation: yes
-Packaged: 2025-01-07 19:24:12 UTC; n5
+Packaged: 2026-08-31 16:08:22 UTC; n5
 Author: Thomas Nagler [aut, cre]
 Maintainer: Thomas Nagler <mail@tnagler.com>
 Repository: CRAN
-Date/Publication: 2025-01-07 20:10:01 UTC
+Date/Publication: 2026-08-31 22:10:02 UTC

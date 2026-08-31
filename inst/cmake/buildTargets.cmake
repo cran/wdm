@@ -1,10 +1,14 @@
 add_library(wdm INTERFACE)
+if(USE_BOOST)
+    target_compile_definitions(wdm INTERFACE USE_BOOST)
+endif()
 target_include_directories(wdm INTERFACE
         $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
         )
 
 if(BUILD_TESTING)
+    enable_testing()
     set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
     add_subdirectory(test)
 endif(BUILD_TESTING)
